@@ -1,0 +1,52 @@
+body
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+}
+h1
+{
+    text-align: center;
+}
+.app-container
+{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:30px;
+}
+.app
+{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 200px;
+    text-align: center;
+}
+.app img
+{
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 10px;
+}
+.play-button 
+{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+  }
+  @media (max-width: 768px) 
+  {
+    .app-container 
+    {
+        gap: 20px; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+}
